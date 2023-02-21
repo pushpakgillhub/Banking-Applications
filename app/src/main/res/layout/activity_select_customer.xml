@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".select_Customer">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="50dp"
+                android:id="@+id/amount"
+                android:inputType="number"
+                android:hint="Enter Amount">
+            </EditText>
+
+
+            <Button
+                android:id="@+id/c1"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Akash Shetty"
+                android:enabled="false"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/c2"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="15dp"
+                android:enabled="false"
+                android:text="Anusha Joshi" />
+
+            <Button
+                android:id="@+id/c3"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Nitin Jain"
+                android:enabled="false"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/c4"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Avneet Roshan"
+                android:enabled="false"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/c5"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Sashank Singh"
+                android:enabled="false"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/c6"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Deepika Mohan"
+                android:enabled="false"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/c7"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Vadika Sharma"
+                android:enabled="false"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/c8"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Varn Verma"
+                android:enabled="false"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/c9"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Sudeep Rathod"
+                android:enabled="false"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/c10"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Anika Singh"
+                android:enabled="false"
+                android:layout_marginTop="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
